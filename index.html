@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Expressed · East 73 Studio</title>
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://east73studio.com/expressed/">
+  <meta http-equiv="refresh" content="0; url=https://east73studio.com/expressed/">
+  <script>
+    // Send expressed.app/<page> to the matching page on east73studio.com.
+    // Anything else goes to the Expressed home page.
+    (function () {
+      var base = "https://east73studio.com/expressed/";
+      var page = location.pathname.replace(/^\/+|\/+$/g, "").toLowerCase();
+      var known = { privacy: "privacy/", terms: "terms/", support: "support/" };
+      location.replace(base + (known[page] || ""));
+    })();
+  </script>
+</head>
+<body>
+  <p>Expressed has moved to <a href="https://east73studio.com/expressed/">east73studio.com/expressed</a>.</p>
+</body>
+</html>
